@@ -1,0 +1,79 @@
+nav {
+    margin: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
+    display: flex;
+    justify-content: left;
+    background-color: #333;
+  }
+  #mainDiv {
+    background-color: #333;
+    
+  }
+  #btn{
+    border-radius: 5%;
+    padding: 0.3rem 1.5rem;
+    color: #eee;
+    background-color: #5a5757;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  main {
+    margin: 0rem 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  img {
+    margin: 1rem;
+    border-radius: 5%;
+    width: 16rem;
+  }
+  .logo img {
+    width: 15rem;
+    border-radius: 5%;
+    margin-right: 0.5rem;
+    vertical-align: text-top;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 1rem;
+  }
+  
+  .nav-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #eee;
+  }
+  
